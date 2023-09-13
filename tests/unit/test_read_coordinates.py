@@ -9,12 +9,12 @@ def test_that_we_can_split_file_into_coordinates(test_data_path):
     the file located on disk.
     """
     expected_coordinates_list = [
-        ("1", "1"),
-        ("2.0", "1.8"),
-        ("2.5", "2.1"),
-        ("3", "2"),
-        ("4.3", "7.2"),
-        ("5.3", "6.2"),
+        (1, 1),
+        (2.0, 1.8),
+        (2.5, 2.1),
+        (3, 2),
+        (4.3, 7.2),
+        (5.3, 6.2),
     ]
 
     assert read_coordinates(test_data_path / "test_input") == expected_coordinates_list
