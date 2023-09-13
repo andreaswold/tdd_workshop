@@ -21,4 +21,4 @@ def find_first_treasure_candidate(coordinates: List[Tuple[float, float]], slope_
     for i, slope in enumerate(slopes):
         if slope >= slope_threshold:
             return i + 1
-    raise ValueError
+    raise ValueError("No treasure found")

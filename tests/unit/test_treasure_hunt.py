@@ -1,5 +1,5 @@
 from typing import List
-from treasure_hunt import calculate_slopes, find_first_treasure_candidate
+from tdd_workshop.treasure_hunt import calculate_slopes, find_first_treasure_candidate
 
 
 def test_correctly_calculated_slopes():
